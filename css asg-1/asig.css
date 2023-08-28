@@ -1,0 +1,30 @@
+nav ul{
+    background-color:pink;
+}
+section p{
+    color:red;
+}
+.paragraphs{
+    border: 2px solid;
+}
+.links{
+    font-weight: bold;
+}
+.font{
+    font-size: 25px;
+}
+nav li{
+    margin-bottom:20px;
+}
+.links a:first-child{
+    color:orangered;
+}
+.links a:last-child{
+    text-decoration: underline;
+}
+section{
+    padding:15px;
+}
+footer{
+    border:2px solid;
+}

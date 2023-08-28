@@ -1,0 +1,65 @@
+nav a:hover{
+    color:red;
+}
+.colo1:active{
+    background-color: aquamarine;
+}
+.colo2:active{
+    background-color: plum;
+}
+.colo3:active{
+    background-color: yellowgreen;
+}
+.colo4:active{
+    background-color: peru;
+}
+nav a{
+    color:orangered;
+}
+.links a:visited{
+    font-style: italic;
+}
+h2:hover{
+    background-color: deeppink;
+}
+h2:active{
+    text-decoration: underline;
+}
+nav li:nth-child(odd){
+    background-color: chartreuse;
+}
+div p:nth-child(3){
+    color:chocolate;
+}
+.links a:last-child{
+    color:darkkhaki;
+}
+input:focus{
+    border: 2px solid maroon;
+}
+
+section p::first-letter{
+    font-size:30px;
+    color : magenta;
+}
+header h1::first-line{
+    font-style:oblique;
+}
+main h2::before{
+    content: open-quote;
+}
+nav ul li::after{
+    content: '#';
+}
+.paragraphs p::selection{
+    background-color: cadetblue;
+} 
+nav a::before{
+    content:'*';
+}
+nav ul li::marker{
+    font-style:oblique;
+}
+footer p::after{
+    content: close-quote;
+}

@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-column: auto auto auto auto auto auto;
+    background-color: yellow;
+    padding: 0px;
+    gap: 3px 3px;
+    margin-top: -20px;
+}
+.item{
+    backgroud-color:white;
+}
